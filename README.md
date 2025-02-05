@@ -30,7 +30,7 @@ It has multiple address-related columns: address_one, city, state and zip. We'll
 geocode-sqlite nominatim extend.db refunds \
  --location="{address_one}, {city}, {state} {zip}" \
  --delay=1 \
- --user-agent="newsapps-first-name"
+ --user-agent="newsapps-anthony"
 
 While that's running, we'll look at some data that already has latitude and longtitude values.
 
